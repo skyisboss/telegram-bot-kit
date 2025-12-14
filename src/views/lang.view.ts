@@ -5,7 +5,7 @@ export function langSettingView(ctx: MyContext, params: any): ViewData {
   const kb = new InlineKeyboard();
 
   const icon = ["", "✅ "];
-  if (ctx.session.__language_code == "zh") {
+  if (ctx.session.__language_code == "en") {
     icon[0] = "✅ ";
     icon[1] = "";
   }
